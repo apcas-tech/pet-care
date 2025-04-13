@@ -1,15 +1,17 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Livewire\User\Dashboard;
 
 Route::view('/', 'welcome');
 
-Route::view('dashboard', 'dashboard')
-    ->middleware(['auth', 'verified'])
-    ->name('dashboard');
+Route::middleware(['auth', 'verified'])->prefix('pet-owner')->group(function () {
+    Route::get('/dashboard', Dashboard::class)->name('user.dashboard');
 
-Route::view('profile', 'profile')
-    ->middleware(['auth'])
-    ->name('profile');
+    Route::view('/profile', 'livewire.user.profile')->name('user.profile');
+});
 
-require __DIR__.'/auth.php';
+
+
+
+require __DIR__ . '/auth.php';
