@@ -63,7 +63,7 @@ $register = function () {
                 </x-primary-button>
                 <div class="flex items-center w-full max-w-xs">
                     <div class="flex-grow border-t border-black dark:border-white"></div>
-                    <span class="mx-2 text-sm  border-black dark:border-white">OR</span>
+                    <span class="mx-2 text-sm text-black dark:text-white">OR</span>
                     <div class="flex-grow border-t border-black dark:border-white"></div>
                 </div>
             </div>

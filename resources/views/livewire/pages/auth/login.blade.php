@@ -30,7 +30,7 @@ $login = function () {
 
             <form wire:submit="login" class="w-full">
                 <div class="flex flex-col items-center justify-center gap-4 mb-8">
-                    <h2 class="text-2xl text-gray-700 dark:text-white">Login</h2>
+                    <h2 class="text-2xl font-semibold text-gray-700 dark:text-white">Login</h2>
                     <h4 class="text-gray-700 dark:text-white">Enter your account credentials.</h4>
                 </div>
                 <!-- Email Address -->
@@ -74,7 +74,7 @@ $login = function () {
                     <!-- OR Divider -->
                     <div class="flex items-center w-full max-w-xs">
                         <div class="flex-grow border-t border-black dark:border-white"></div>
-                        <span class="mx-2 text-sm  border-black dark:border-white">OR</span>
+                        <span class="mx-2 text-sm text-black dark:text-white">OR</span>
                         <div class="flex-grow border-t border-black dark:border-white"></div>
                     </div>
 

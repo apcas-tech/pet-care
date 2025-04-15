@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Pet Care') }}</title>
 
     <!-- Add these to the <head> section of your layout -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css">
@@ -22,14 +22,13 @@
     <link href="https://cdn.jsdelivr.net/npm/flowbite@1.7.0/dist/flowbite.min.css" rel="stylesheet">
 
     <!-- Scripts -->
-    @livewireStyles
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 <body class="font-sans text-gray-900 antialiased">
     <!-- components/alert.html -->
     <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
-        <main class="text-black dark:text-white">
+        <main>
             {{ $slot }}
         </main>
     </div>
@@ -39,7 +38,6 @@
     </div>
     <!-- Flowbite JS -->
     <script src="https://cdn.jsdelivr.net/npm/flowbite@1.7.0/dist/flowbite.min.js"></script>
-    @livewireScripts
 </body>
 
 </html>

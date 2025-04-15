@@ -70,9 +70,9 @@ $updatePassword = function () {
         </div>
 
         <div class="flex items-center gap-4">
-            <x-primary-button class="bg-gray-200">{{ __('Save') }}</x-primary-button>
+            <x-primary-button class="dark:bg-gray-200 text-gray-800">{{ __('Save') }}</x-primary-button>
 
-            <x-action-message class="me-3" on="password-updated">
+            <x-action-message class="me-3 " on="password-updated">
                 {{ __('Saved.') }}
             </x-action-message>
         </div>

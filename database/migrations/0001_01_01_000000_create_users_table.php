@@ -22,6 +22,8 @@ return new class extends Migration
             $table->string('barangay');
             $table->string('city');
             $table->string('country');
+            $table->integer('no_pets')->default(0); // new column
+            $table->string('profile_pic')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
