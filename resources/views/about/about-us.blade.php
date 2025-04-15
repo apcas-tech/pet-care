@@ -9,7 +9,7 @@
         We, at BFC Animal Clinic promote wellness and well-being for your furbabies, prevent and treat diseases and illnesses.
     </p>
     <div class="mt-6">
-        <img src="{{ asset('imgs/emergency.jpg') }}" alt="Our Team" class="rounded-lg shadow-lg w-full max-w-2xl mx-auto">
+        <img src="{{ asset('imgs/emergency.webp') }}" alt="Our Team" class="rounded-lg shadow-lg w-full max-w-2xl mx-auto">
     </div>
 </div>
 @endsection

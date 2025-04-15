@@ -71,7 +71,11 @@
 
     <!-- Include the Vaccination Component -->
 
-    <x-e-healthdata :pet="$pet" />
+    <div id="e-health-container" class="w-full">
+        @if(!$pets->isEmpty())
+        <x-e-healthdata :pet="$pets->first()" />
+        @endif
+    </div>
 </div>
 
 <link href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" rel="stylesheet">
