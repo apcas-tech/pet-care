@@ -12,6 +12,7 @@
         "php": "^8.2",
         "blade-ui-kit/blade-heroicons": "^2.6",
         "blade-ui-kit/blade-icons": "^1.8",
+        "codeat3/blade-carbon-icons": "^2.34",
         "codeat3/blade-clarity-icons": "^1.10",
         "codeat3/blade-google-material-design-icons": "^1.20",
         "codeat3/blade-uiw-icons": "^1.6",
@@ -19,6 +20,7 @@
         "laravel/tinker": "^2.10.1",
         "livewire/livewire": "^3.6",
         "livewire/volt": "^1.7.0",
+        "mallardduck/blade-boxicons": "^2.4",
         "owenvoke/blade-fontawesome": "^2.9",
         "saade/blade-iconsax": "^1.2"
     },
